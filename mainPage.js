@@ -1,4 +1,3 @@
-
 const username = localStorage.getItem('user');
 const userTeam = localStorage.getItem('team')
 const nameEl = document.getElementById("name")
@@ -102,6 +101,7 @@ function getGames (chosenDate) {
 
 getGames(0);
 
+
 var x = 0
 function changeDate(direction){
     if (direction === 'right') {
@@ -167,5 +167,3 @@ function teamStats(chosenTeam) {
 }
 
 teamStats(userTeam);
-
-
